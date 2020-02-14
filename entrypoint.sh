@@ -13,4 +13,4 @@ then
     /usr/libexec/postfix/aliasesdb
 fi
 
-exec "$@"
+exec time "$@"
